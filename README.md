@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+A closure makes blocks of code private while that privacy also has access to code outside of it.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+closure is used inside the nested function when it calls outside the function for "name"
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+the same is that Dan's roll is always going to be called and a different dice is always going to be rolled.
+
 c. What is the lexical scope of `newRoll`?
+
+function outside of it
 
 ### Task 3 - Stretch Goals
 
